@@ -1,0 +1,102 @@
+/* Place your CSS styles in this file */
+
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 4px 0 4px 0;
+}
+#h1{ border-style: double;
+background-color: yellow;
+color:red; 
+margin-top:0px;
+height:120px;
+width:100%;
+font-size:75px;
+text-align:center;
+
+}
+#vi{border-style: ridge;
+background-color:#C4FF44;
+color:black;
+text-align:center;
+}
+#bi{background-color:#F7FFD7 ;
+color:black;
+border-style:ridge;
+text-align:center;
+}
+.instruction{
+border-style: groove;
+/* background-color:; */
+margin-top: -50px;
+margin-left:0px;
+margin-right:0px;
+/* height:0px; */
+width:100%;
+}
+ol{
+margin-left:20px;
+margin-right:px;
+}
+#matter{margin-top:29px;
+  
+}
+#ip{
+  margin-top: 63px;
+border-style: groove;
+text-align: center;
+Font-size:30px;
+background-color: #C7EFFF;
+border-color:lime;
+Height:39px;
+}
+#y{font-size:13px;
+text-align:center;
+font-size:32px;
+margin-top: -31.75px;
+height:116px;
+border-style: ridge;
+/* background-color:; */
+}
+#time{margin-top:-0.2px;
+}
+.ridge {border-style: ridge;
+}
+#p2{
+text-align: Center;
+}
+#p1 {
+         text-align: center;
+      }
+    #img{
+border-radius:100%;
+}
+#h2{background-color:aqua;
+}
+#h3{background-color: yellow;
+}
+#yh{background-color:#FFABBD;
+}
+#king{text-align:center;
+margin-top:-8.5px;
+height:100%;
+}
+#ing{margin-top:11px;
+}
+.young{background-color: #A2FFAA;
+}
+#vi,#h2,#yh,#bi,#h3{border-radius:28px;
+  margin: 13px;
+}
+#h1{border-radius:8px;
+}
+
+
+.socialLink{
+color: black;
+  text-decoration: none;
+}
+
+#info{
+  font-family: 'Montserrat', sans-serif;
+}
+
