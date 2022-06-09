@@ -81,7 +81,7 @@
                     href="https://calculators.w3spaces.com/Percentage-Calculator.html?bypass-cache=1628655652">
                     <h3>Percentage Calculator</h3>
                 </a><br>
-                <ol type="I">
+                <ol type="a">
                     <li><a Target="_blank"
                             href="https://calculators.w3spaces.com/Percentage-Calculator-1.html?bypass-cache=1628655652">
                             <h3>If percentage and total value is given and you have to calculate value Obtained</h3>
@@ -144,7 +144,7 @@
             <h4>Privacy Policy</h4>
         </a>
         <a href="#">
-            <h4>&copy; 2021 | Ask Me &ndash; The Educational Channel</h4>
+            <h4>&copy;&nbsp;<p id="year" style="display: inline;"></p>&nbsp;| Ask Me &ndash; The Educational Channel</h4>
         </a>
         <h6 id="ip">This Site is Designed and Developed By - Gaurav Singh.</h6>
 
@@ -156,6 +156,11 @@
         </div>
     </footer>
 </div>
+    <script>
+    const d = new Date();
+    let year = d.getFullYear();
+    document.getElementById("year").innerHTML = year;
+    </script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
