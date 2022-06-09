@@ -98,5 +98,10 @@ color: black;
 
 #info{
   font-family: 'Montserrat', sans-serif;
+      text-align: justify;
+}
+
+a{
+      text-decoration: none;
 }
 
